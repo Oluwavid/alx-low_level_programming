@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	char l = 97;
+	char l = 'a';
 
-	for (l = 97; l <= 122; l++)
+	for (l = 'a'; l <= 'z'; l++)
 	{
-		if (l == 101 || l == 113)
+		if (l == 'e' || l == 'e')
 			continue;
 			putchar(l);
 	}
