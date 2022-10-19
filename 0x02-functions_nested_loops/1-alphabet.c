@@ -4,7 +4,7 @@
  *
  * Return: Return 0 if successful.
  */
-int main(void)
+void print_alphabet(void)
 {
 	char alpha = 'a';
 
@@ -16,6 +16,5 @@ int main(void)
 
 	putchar('\n');
 
-	return (0);
 
 }
